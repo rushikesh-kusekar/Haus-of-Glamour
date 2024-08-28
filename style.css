@@ -97,7 +97,8 @@ body{
 .complementry-text{
     margin-top: 0px;
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
+    font-family: cursive;
 }
 
 .services-parent-card{
@@ -109,11 +110,44 @@ body{
 .service-card{
     width: 230px;
     height: 230px;
-    background-image: url("./images/Pedicure\ &\ Manicure.jpg");
+    background-image: url("./images/Pedicure-Manicure.jpg");
     background-size: cover;
-    margin-bottom: 30px;
+    margin: 30px;
     box-shadow: 0px 0px 10px 2px gray;
     border-radius: 5px;
+}
+
+.service-card-2{
+    width: 230px;
+    height: 230px;
+    background-image: url("./images/beuty-sutra-3.jpg");
+    background-size:cover;
+    margin: 30px;
+    box-shadow: 0px 0px 10px 2px gray;
+    border-radius: 5px;
+
+}
+
+.service-card-3{
+    width: 230px;
+    height: 230px;
+    background-image: url("./images/Peptide-Magic.jpg");
+    background-size:cover;
+    margin: 30px;
+    box-shadow: 0px 0px 10px 2px gray;
+    border-radius: 5px;
+
+}
+
+.service-card-4{
+    width: 230px;
+    height: 230px;
+    background-image: url("./images/Everyday-Glam-makeup-2.jpg");
+    background-size:cover;
+    margin: 30px;
+    box-shadow: 0px 0px 10px 2px gray;
+    border-radius: 5px;
+
 }
 
 .service-card-text{
@@ -128,4 +162,10 @@ body{
     border-radius: 0px 0px 4px 4px;
     height: 35px;
       
+}
+
+footer{
+    height: 250px;
+    width: 100%;
+    background-color: black;
 }
