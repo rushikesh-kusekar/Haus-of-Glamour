@@ -3,6 +3,9 @@ body{
     padding: 0px;
     background-color: white;
 }
+.none-2{
+    display: none;
+}
 
 .nav-parent-card{
     display: flex;
@@ -21,8 +24,8 @@ body{
 .nav-element-2{
     display: flex;
     margin-right: 70px;
-     
-
+    cursor: pointer;
+    
 }
 
 .nav-element-1{
@@ -34,6 +37,7 @@ body{
     width: fit-content; 
     height: fit-content;  
     margin-top: 9px;
+    
    
 }
 
@@ -96,6 +100,14 @@ body{
 
 .complementry-text{
     margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.complementry-text-2{
+    margin-top: 0px;
     text-align: center;
     font-size: 20px;
     font-family: cursive;
@@ -115,6 +127,11 @@ body{
     margin: 30px;
     box-shadow: 0px 0px 10px 2px gray;
     border-radius: 5px;
+
+    &:hover{
+        box-shadow: 0px 0px 10px 4px gray; 
+        transition: 0.2s;
+    }
 }
 
 .service-card-2{
@@ -125,6 +142,11 @@ body{
     margin: 30px;
     box-shadow: 0px 0px 10px 2px gray;
     border-radius: 5px;
+
+    &:hover{
+        box-shadow: 0px 0px 10px 4px gray; 
+        transition: 0.2s;
+    }
 
 }
 
@@ -137,6 +159,11 @@ body{
     box-shadow: 0px 0px 10px 2px gray;
     border-radius: 5px;
 
+    &:hover{
+        box-shadow: 0px 0px 10px 4px gray; 
+        transition: 0.2s;
+    }
+
 }
 
 .service-card-4{
@@ -147,6 +174,11 @@ body{
     margin: 30px;
     box-shadow: 0px 0px 10px 2px gray;
     border-radius: 5px;
+
+    &:hover{
+        box-shadow: 0px 0px 10px 4px gray; 
+        transition: 0.2s;
+    }
 
 }
 
@@ -161,6 +193,7 @@ body{
     width: 100%;
     border-radius: 0px 0px 4px 4px;
     height: 35px;
+    cursor: pointer;
       
 }
 
@@ -168,4 +201,101 @@ footer{
     height: 250px;
     width: 100%;
     background-color: black;
+}
+
+.footer-text{
+    color: goldenrod;
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+
+.logo-img{
+    width: 200px;
+    cursor: pointer;
+}
+
+/* mobile device */
+@media screen and (max-width:500px)
+
+{
+    .nav-element-2{
+        display: flex;
+        margin-right: 50px;
+        cursor: pointer;
+        
+    }
+
+    .nav-element-1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 60px;
+        margin-right: 30px;
+        width: fit-content; 
+        height: fit-content;  
+        margin-top: 9px;
+         
+    }
+
+    .trendseting-services-text{
+        text-align: center;
+        margin-bottom: 18px;
+        font-size: 35px;
+    }
+
+    .none-1{
+        display: none;
+    }
+
+    .services-parent-card{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+}
+
+
+/* tablet devices */
+@media screen and (min-width:501px) and (max-width:992px)
+
+{
+    .nav-element-2{
+        display: flex;
+        margin-right: 60px;
+        cursor: pointer;
+        
+    }
+
+    .nav-element-1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 70px;
+        margin-right: 30px;
+        width: fit-content; 
+        height: fit-content;  
+        margin-top: 9px;
+         
+    }
+
+    .trendseting-services-text{
+        text-align: center;
+        margin-bottom: 18px;
+        font-size: 40px;
+    }
+
+    .none-1{
+        display: none;
+    }
+
+    .services-parent-card{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
 }
